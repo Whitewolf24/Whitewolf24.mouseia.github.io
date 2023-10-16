@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+	background-color: #007196;
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#page {
+	text-align: left;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+h2 {
+	font-size: 1.7rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+
+
+#icos {
+	position: relative;
+	height: 8rem;
+	margin-bottom: -2rem;
+	padding-bottom: 0.5rem;
+	margin-top: -1rem;
+	z-index: 999;
+}
+
+#moyseia {
+	position: relative;
+	top: 214px;
+	left: 230px;
+	cursor: pointer;
+}
+
+#epik {
+	position: relative;
+	top: 220px;
+	left: 735px;
+	cursor: pointer;
+}
+
+#lesvos {
+	position: relative;
+	top: 214px;
+	left: 440px;
+	cursor: pointer;
+}
+
+#sylog {
+	position: relative;
+	top: 214px;
+	left: 320px;
+	cursor: pointer;
+}
+
+#text {
+	position: relative;
+	top: 200px;
+	left: 464.5px;
+	font-size: 26px;
+	color: white;
+	font-weight: bold;
+	-webkit-user-select: none;
+	/* Chrome/Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+ */
+	cursor: default;
+	user-select: none;
+}
+
+
+
+
+
+
+
+#context1 {
+	position: relative;
+	bottom: 390px;
+	left: 100px;
+	visibility: hidden;
+}
+
+
+#context_teriade {
+	position: relative;
+	visibility: hidden;
+}
+
+#context_lesvos {
+	position: relative;
+	bottom: 1090px;
+	left: 100px;
+	visibility: hidden;
+}
+
+#context_diktyo {
+	position: relative;
+	bottom: 1675px;
+	left: 220px;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	cursor: default;
+	visibility: hidden;
+	/*! margin-bottom: ; */
+}
+
+#context_epik {
+	position: relative;
+	bottom: 1930px;
+	left: 110px;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	cursor: default;
+	visibility: hidden;
+}
+
+
+
+#text_teriade {
+	background-color: rgb(160, 160, 160);
+	position: relative;
+	left: 390px;
+	bottom: 512px;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	cursor: default;
+	padding: 10px;
+}
+
+#text_lesvos {
+	position: relative;
+	left: 298px;
+	bottom: 320px;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	cursor: default;
+	padding: 10px;
+}
+
+#dix {
+	position: relative;
+	left: 238px;
+	bottom: 17px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: default;
+	-webkit-user-select: none;
+	/* Chrome/Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+ */
+	user-select: none;
+	text-decoration: underline;
+}
+
+#epoik {
+	position: relative;
+	left: 387px;
+	bottom: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: default;
+	-webkit-user-select: none;
+	/* Chrome/Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+ */
+	user-select: none;
+	text-decoration: underline;
+}
+
+#line2 {
+	position: relative;
+	left: 614px;
+	bottom: 386px;
+	font-size: 14px;
+	cursor: default;
+}
+
+
+#dots {
+	position: relative;
+	left: 530px;
+	top: 50px;
+	visibility: hidden;
+}
+
+#dot {
+	position: relative;
+	right: 210px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#dot_act {
+	position: relative;
+	right: 190px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#dot2 {
+	position: relative;
+	right: 20px;
+	cursor: pointer;
+}
+
+#dot2_act {
+	position: relative;
+	left: 5px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#dot3 {
+	position: relative;
+	left: 230px;
+	cursor: pointer;
+}
+
+
+#dot3_act {
+	position: relative;
+	left: 208px;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+
+
+
+#right {
+	position: relative;
+	left: 325px;
+	cursor: pointer;
+}
+
+#left {
+	position: relative;
+	right: 470px;
+	cursor: pointer;
+}
+
+
+
+#social {
+	position: relative;
+	left: 562px;
+	bottom: 2000px;
+	visibility: hidden;
+}
+
+
+#fb {
+	visibility: hidden;
+}
+
+#twee {
+	position: relative;
+	left: 8px;
+	visibility: hidden;
+}
+
+
+
+
+
+#onom {
+	position: relative;
+	left: 318px;
+	top: 35px;
+	cursor: default;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	visibility: hidden;
+}
+
+#onom_teriade {
+	position: relative;
+	visibility: hidden;
+	left: 2px;
+}
+
+#onom_oli {
+	position: relative;
+	left: 218px;
+	bottom: 31.5px;
+	visibility: hidden;
+}
+
+#onom_byz {
+	position: relative;
+	left: 470px;
+	bottom: 63.8px;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+#heads {
+	position: relative;
+	left: 412px;
+	top: 406px;
+	font-weight: bold;
+	/* font-size: 16px; */
+	letter-spacing: 4px;
+	text-decoration: underline;
+	cursor: default;
+	-webkit-user-select: none;
+	/* Chrome/Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+ */
+	user-select: none;
+	margin-bottom: -4.5rem;
+}
+
+#head_teriade {
+	position: relative;
+	visibility: hidden;
+	right: 1.7%;
+	bottom: 2rem;
+}
+
+#head_oli {
+	position: relative;
+	visibility: hidden;
+	right: 22px;
+	bottom: 87px;
+}
+
+#head_byz {
+	position: relative;
+	visibility: hidden;
+	right: 22px;
+	bottom: 145px;
+}
+
+
+
+#eliaz {
+	position: relative;
+	visibility: hidden;
+	left: 11.5px;
+	top: 265px;
+}
+
+#teriade {
+	position: relative;
+	top: -17.9rem;
+}
+
+
+#byznes {
+	position: relative;
+	visibility: hidden;
+	left: 25.5px;
+	bottom: 15px;
+}
+
+
+
+#molybos {
+	position: relative;
+	right: 72px;
+	bottom: 200px;
+}
+
+#prokymaia {
+	position: relative;
+	right: 553px;
+	top: 29px;
+}
+
+#therapon {
+	position: relative;
+	left: 12px;
+	top: -8px;
+}
+
+#plokami {
+	position: relative;
+	left: 484px;
+	bottom: 216px;
+}
