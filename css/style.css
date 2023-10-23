@@ -8,7 +8,7 @@ body {
 	padding: 0;
 	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 	width: 100%;
 	height: 100%;
 }
@@ -50,10 +50,12 @@ h3 {
 
 
 #icos {
+	display: flex;
 	position: relative;
 	height: 8rem;
 	margin-bottom: -2rem;
 	padding-bottom: 0.5rem;
+	justify-content: center;
 	margin-top: -1rem;
 	z-index: 999;
 }
@@ -61,35 +63,40 @@ h3 {
 #moyseia {
 	position: relative;
 	top: 214px;
-	left: 230px;
+	/* left: 230px; */
 	cursor: pointer;
 }
 
 #epik {
 	position: relative;
 	top: 220px;
-	left: 735px;
+	/* left: 735px; */
 	cursor: pointer;
 }
 
 #lesvos {
 	position: relative;
 	top: 214px;
-	left: 440px;
+	/* left: 440px; */
 	cursor: pointer;
 }
 
 #sylog {
 	position: relative;
 	top: 214px;
-	left: 320px;
+	/* left: 320px; */
 	cursor: pointer;
+}
+
+#mid {
+	display: flex;
+	justify-content: center;
 }
 
 #text {
 	position: relative;
 	top: 200px;
-	left: 464.5px;
+	/* left: 464.5px; */
 	font-size: 26px;
 	color: white;
 	font-weight: bold;
@@ -112,8 +119,12 @@ h3 {
 #context1 {
 	position: relative;
 	bottom: 390px;
-	left: 100px;
+	/* left: 100px; */
+	right: 10%;
 	visibility: hidden;
+	text-align: center;
+	display: flex;
+	flex-flow: column;
 }
 
 
@@ -124,32 +135,44 @@ h3 {
 
 #context_lesvos {
 	position: relative;
-	bottom: 1090px;
-	left: 100px;
+	/* bottom: 1090px;
+	left: 100px; */
 	visibility: hidden;
+	display: flex;
+	bottom: 80rem;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 #context_diktyo {
 	position: relative;
-	bottom: 1675px;
-	left: 220px;
+	/* bottom: 1675px;
+	left: 220px; */
 	font-size: 14px;
 	color: white;
 	text-align: left;
 	cursor: default;
 	visibility: hidden;
 	/*! margin-bottom: ; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 #context_epik {
 	position: relative;
-	bottom: 1930px;
-	left: 110px;
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: column;
 	font-size: 14px;
 	color: white;
-	text-align: left;
 	cursor: default;
 	visibility: hidden;
+	bottom: 120rem;
+	width: 42vw;
+	text-align: center;
+	margin: 0 auto;
 }
 
 
@@ -157,30 +180,39 @@ h3 {
 #text_teriade {
 	background-color: rgb(160, 160, 160);
 	position: relative;
-	left: 390px;
-	bottom: 512px;
+	/* 	left: 390px;
+	bottom: 125%;
 	font-size: 14px;
+	/* text-align: left; */
 	color: white;
-	text-align: left;
+	bottom: 520px;
 	cursor: default;
 	padding: 10px;
+	margin-left: 40.4rem;
+	width: 45ch;
+	left: 23rem;
+	margin: 0 auto;
+	font-size: 80%;
+	height: 13rem;
+	overflow: auto;
 }
 
 #text_lesvos {
 	position: relative;
-	left: 298px;
-	bottom: 320px;
+	left: 1rem;
+	bottom: 1rem;
 	font-size: 14px;
 	color: white;
 	text-align: left;
 	cursor: default;
 	padding: 10px;
+	width: 60ch;
 }
 
 #dix {
 	position: relative;
-	left: 238px;
-	bottom: 17px;
+	/* left: 238px;*/
+	bottom: 95rem;
 	font-weight: bold;
 	font-size: 16px;
 	cursor: default;
@@ -192,11 +224,22 @@ h3 {
 	/* IE10+ */
 	user-select: none;
 	text-decoration: underline;
+	margin: 0 auto;
+}
+
+#dix_text {
+	bottom: 94rem;
+	position: relative;
+	width: 82ch;
+	white-space: pre-line;
+	margin: 0 auto;
+
+
 }
 
 #epoik {
 	position: relative;
-	left: 387px;
+	/* left: 387px; */
 	bottom: 21px;
 	font-weight: bold;
 	font-size: 16px;
@@ -211,61 +254,73 @@ h3 {
 	text-decoration: underline;
 }
 
+/* #line1 {
+	margin-right: 20rem;
+}
+
 #line2 {
-	position: relative;
-	left: 614px;
-	bottom: 386px;
+	margin-top: -28.5rem;
 	font-size: 14px;
 	cursor: default;
-}
+	margin-left: 20rem;
+} */
 
 
 #dots {
+	display: flex;
+	justify-content: center;
 	position: relative;
-	left: 530px;
+	/* left: 530px; */
 	top: 50px;
 	visibility: hidden;
 }
 
 #dot {
 	position: relative;
-	right: 210px;
+	/* right: 210px; */
 	visibility: hidden;
 	cursor: pointer;
+	margin-right: 5rem;
+	margin-left: -6rem;
 }
 
 #dot_act {
 	position: relative;
-	right: 190px;
+	/* right: 190px; */
+	margin-right: 5rem;
 	visibility: hidden;
 	cursor: pointer;
 }
 
 #dot2 {
 	position: relative;
-	right: 20px;
+	/* right: 20px; */
 	cursor: pointer;
+	margin-right: 0.8rem;
 }
 
 #dot2_act {
 	position: relative;
-	left: 5px;
+	/* left: 5px; */
 	visibility: hidden;
 	cursor: pointer;
+	margin-right: -1.2rem;
 }
 
 #dot3 {
 	position: relative;
-	left: 230px;
+	/* left: 230px; */
 	cursor: pointer;
+	margin-left: 5rem;
 }
 
 
 #dot3_act {
 	position: relative;
-	left: 208px;
+	/* left: 208px; */
 	cursor: pointer;
 	visibility: hidden;
+	margin-left: -1.2rem;
 }
 
 
@@ -309,32 +364,42 @@ h3 {
 
 #onom {
 	position: relative;
-	left: 318px;
+	/* left: 318px; */
 	top: 35px;
 	cursor: default;
 	font-size: 15px;
 	color: white;
 	font-weight: bold;
 	visibility: hidden;
+	margin-left: 5rem;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
 }
 
 #onom_teriade {
+	margin-left: 6rem;
+	margin-top: 1rem;
 	position: relative;
 	visibility: hidden;
-	left: 2px;
+	/* left: 2px; */
 }
 
 #onom_oli {
+	margin-top: 1rem;
 	position: relative;
-	left: 218px;
-	bottom: 31.5px;
+	/* left: 218px;
+	bottom: 31.5px; */
 	visibility: hidden;
 }
 
 #onom_byz {
+	margin-right: 5rem;
+	margin-top: 1rem;
 	position: relative;
-	left: 470px;
-	bottom: 63.8px;
+	/* left: 470px;
+	bottom: 63.8px; */
 	visibility: hidden;
 }
 
@@ -366,22 +431,25 @@ h3 {
 #head_teriade {
 	position: relative;
 	visibility: hidden;
-	right: 1.7%;
-	bottom: 2rem;
+	/* right: 1.7%; */
+	margin-left: -8rem;
+	bottom: 53px;
 }
 
 #head_oli {
 	position: relative;
 	visibility: hidden;
-	right: 22px;
-	bottom: 87px;
+	/* right: 22px; */
+	margin-left: -8rem;
+	bottom: 110px;
 }
 
 #head_byz {
 	position: relative;
 	visibility: hidden;
-	right: 22px;
-	bottom: 145px;
+	/* 	right: 22px; */
+	bottom: 174px;
+	margin-left: -8rem;
 }
 
 
@@ -389,12 +457,14 @@ h3 {
 #eliaz {
 	position: relative;
 	visibility: hidden;
-	left: 11.5px;
+	/* left: 11.5px; */
 	top: 265px;
+	margin-left: -4rem;
 }
 
 #teriade {
 	position: relative;
+	margin-left: -4rem;
 	top: -17.9rem;
 }
 
@@ -402,32 +472,30 @@ h3 {
 #byznes {
 	position: relative;
 	visibility: hidden;
-	left: 25.5px;
+	/* left: 25.5px; */
 	bottom: 15px;
+	/* margin-left: -4rem; */
 }
 
 
 
 #molybos {
 	position: relative;
-	right: 72px;
-	bottom: 200px;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 
 #prokymaia {
 	position: relative;
-	right: 553px;
-	top: 29px;
+	margin-right: 1rem;
 }
 
 #therapon {
 	position: relative;
-	left: 12px;
-	top: -8px;
 }
 
 #plokami {
 	position: relative;
-	left: 484px;
-	bottom: 216px;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
